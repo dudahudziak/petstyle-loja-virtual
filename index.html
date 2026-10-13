@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Pet & Style</title>
+</head>
+<body class="bg-orange-50 text-gray-800 font-sans">
+
+  <header class="bg-white shadow">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col items-center gap-3 sm:flex-row sm:justify-between">
+      <a href="#home" class="text-2xl font-bold text-orange-500">🐾 Pet&amp;Style</a>
+      <nav>
+        <ul class="flex flex-wrap justify-center gap-4 text-sm sm:text-base font-medium">
+          <li><a href="#home" class="hover:text-orange-500">Home</a></li>
+          <li><a href="#produtos" class="hover:text-orange-500">Produtos</a></li>
+          <li><a href="#depoimentos" class="hover:text-orange-500">Depoimentos</a></li>
+          <li><a href="#contato" class="hover:text-orange-500">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="home" class="max-w-6xl mx-auto px-4 py-12 md:py-20 flex flex-col items-center gap-8 md:flex-row">
+      <div class="text-center md:text-left md:w-1/2">
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">
+          Tudo para o seu pet <span class="text-orange-500">ficar com estilo</span>
+        </h1>
+        <p class="mt-4 text-gray-600 text-base sm:text-lg">
+          Roupinhas, brinquedos, camas e acessórios com entrega rápida e carinho em cada detalhe.
+        </p>
+        <a href="#produtos" class="inline-block mt-6 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-full transition">
+          Ver produtos
+        </a>
+      </div>
+      <div class="md:w-1/2 w-full flex justify-center">
+        <div class="bg-orange-200 rounded-3xl w-full max-w-sm h-64 lg:h-80 flex items-center justify-center text-8xl lg:text-9xl">
+          🐶🐱
+        </div>
+      </div>
+    </section>
+
+    <section id="produtos" class="bg-white py-12 md:py-16">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-2xl sm:text-3xl font-bold text-center mb-8">Nossos produtos</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+          <div class="border border-orange-100 rounded-2xl p-5 text-center shadow-sm hover:shadow-md transition">
+            <div class="text-6xl mb-3">🦴</div>
+            <h3 class="font-semibold text-lg">Osso de brinquedo</h3>
+            <p class="text-sm text-gray-500 mt-1">Resistente e divertido.</p>
+            <p class="text-orange-500 font-bold text-xl mt-3">R$ 24,90</p>
+            <button class="mt-3 w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-lg">Comprar</button>
+          </div>
+
+          <div class="border border-orange-100 rounded-2xl p-5 text-center shadow-sm hover:shadow-md transition">
+            <div class="text-6xl mb-3">🛏️</div>
+            <h3 class="font-semibold text-lg">Caminha confort</h3>
+            <p class="text-sm text-gray-500 mt-1">Macia e lavável.</p>
+            <p class="text-orange-500 font-bold text-xl mt-3">R$ 89,90</p>
+            <button class="mt-3 w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-lg">Comprar</button>
+          </div>
+
+          <div class="border border-orange-100 rounded-2xl p-5 text-center shadow-sm hover:shadow-md transition">
+            <div class="text-6xl mb-3">🧥</div>
+            <h3 class="font-semibold text-lg">Capa de chuva</h3>
+            <p class="text-sm text-gray-500 mt-1">Para passeios com estilo.</p>
+            <p class="text-orange-500 font-bold text-xl mt-3">R$ 49,90</p>
+            <button class="mt-3 w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-lg">Comprar</button>
+          </div>
+
+          <div class="border border-orange-100 rounded-2xl p-5 text-center shadow-sm hover:shadow-md transition">
+            <div class="text-6xl mb-3">🍖</div>
+            <h3 class="font-semibold text-lg">Petisco natural</h3>
+            <p class="text-sm text-gray-500 mt-1">Sem conservantes.</p>
+            <p class="text-orange-500 font-bold text-xl mt-3">R$ 14,90</p>
+            <button class="mt-3 w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-lg">Comprar</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="depoimentos" class="py-12 md:py-16">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-2xl sm:text-3xl font-bold text-center mb-8">O que dizem os clientes</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <blockquote class="bg-white rounded-2xl p-6 shadow-sm">
+            <p class="italic text-gray-600">“A caminha chegou em 2 dias e o Thor não sai mais dela!”</p>
+            <footer class="mt-4 font-semibold text-orange-500">Mariana, dona do Thor</footer>
+          </blockquote>
+
+          <blockquote class="bg-white rounded-2xl p-6 shadow-sm">
+            <p class="italic text-gray-600">“Produtos de qualidade e atendimento muito atencioso.”</p>
+            <footer class="mt-4 font-semibold text-orange-500">Lucas, dono da Mel</footer>
+          </blockquote>
+
+          <blockquote class="bg-white rounded-2xl p-6 shadow-sm">
+            <p class="italic text-gray-600">“A capinha de chuva ficou perfeita na minha gatinha.”</p>
+            <footer class="mt-4 font-semibold text-orange-500">Camila, dona da Luna</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="bg-white py-12 md:py-16">
+      <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10">
+
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold mb-4">Fale com a gente</h2>
+          <p class="text-gray-600 mb-4">Dúvidas sobre pedidos ou produtos? Escreva para nós.</p>
+          <ul class="space-y-2 text-gray-700">
+            <li>📧 contato@petstyle.com.br</li>
+            <li>📞 (11) 99999-0000</li>
+            <li>🕘 Seg a sex, 9h às 18h</li>
+          </ul>
+        </div>
+
+        <form class="space-y-4" onsubmit="event.preventDefault(); alert('Mensagem enviada! (simulação)'); this.reset();">
+          <div>
+            <label for="nome" class="block text-sm font-medium mb-1">Nome</label>
+            <input type="text" id="nome" required
+                   class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-medium mb-1">E-mail</label>
+            <input type="email" id="email" required
+                   class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+          </div>
+          <div>
+            <label for="mensagem" class="block text-sm font-medium mb-1">Mensagem</label>
+            <textarea id="mensagem" rows="4" required
+                      class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400"></textarea>
+          </div>
+          <button type="submit" class="w-full sm:w-auto bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition">
+            Enviar mensagem
+          </button>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-gray-900 text-gray-400 text-center text-sm py-6">
+    &copy; 2026 Pet&amp;Style. Loja fictícia para fins de estudo.
+  </footer>
+
+</body>
+</html>
